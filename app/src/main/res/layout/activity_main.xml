@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pay.easou_mick.easoupay.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_char" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/mm"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:background="@drawable/btn_check_selector"
+            android:textColor="@drawable/rb_charge_selector"
+            android:text="@string/mm"
+            android:padding="8dip"
+            android:layout_margin="3dp"
+            android:checked="true"
+            android:textSize="18sp"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/wo"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:background="@drawable/btn_check_selector"
+            android:textColor="@drawable/rb_charge_selector"
+            android:text="@string/wopluas"
+            android:padding="8dip"
+            android:layout_margin="3dp"
+
+            android:textSize="18sp"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/ctcc"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/btn_check_selector"
+            android:textColor="@drawable/rb_charge_selector"
+            android:text="@string/ctcc"
+            android:padding="8dip"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:text="@string/seconnd_char" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:button="@null"
+        android:background="@drawable/btn_check_selector"
+        android:textColor="@drawable/rb_charge_selector"
+        android:text="@string/five"
+        android:padding="8dip"
+        android:gravity="center"
+        android:layout_margin="3dp"
+        android:textSize="18sp"
+        android:checked="true"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+        android:text="@string/thirst_chart" />
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="match_parent"
+        android:button="@null"
+        android:textColor="@drawable/rb_charge_selector"
+        android:text="@string/pay"
+        android:padding="8dip"
+        android:gravity="center"
+        android:layout_margin="3dp"
+        android:textSize="18sp"
+        android:checked="true"
+        android:layout_height="wrap_content" />
+</LinearLayout>

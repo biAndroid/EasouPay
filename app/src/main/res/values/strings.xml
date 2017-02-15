@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EasouPay</string>
+    <string name="first_char">1.选中计费通道</string>
+    <string name="seconnd_char">2.支付金额</string>
+
+    <string name="thirst_chart">3.支付</string>
+    <string name="mm">MM</string>
+    <string name="wopluas">联通wo+</string>
+    <string name="ctcc">电信融合</string>
+    <string name="five">5元</string>
+    <string name="pay">支付</string>
+
+
+
+</resources>
